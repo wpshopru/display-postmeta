@@ -5,7 +5,7 @@ Plugin URI: http://wp-shop.ru/blog/all-plugins/postmeta-in-posts/
 Description: Замена шорткодов <code>[meta имя-поля]</code> или комментариев <code>&lt;!--meta имя-поля--&gt;</code> на значение указанного поля.
 Author: WP Shop Team
 Version: 0.1
-Author URI: http://wp-shop.ru
+Author URI: https://wp-shop.ru
 */
 
 add_filter('the_content', 'display_meta',0);
